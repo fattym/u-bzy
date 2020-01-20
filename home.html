@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"href="home.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="smooth">
+        <div class="header">
+           
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#price">price</a></li>
+                <li><a href="#contact ">contact</a></li>
+            </ul>
+        </div>
+        <section id="home">
+            <h2>U-bzy</h2>
+            
+            
+            <div class="w3-content w3-section" style="max-width:1000px">
+                <img class="mySlides" src="bg2.jpg" style="width:100%">
+                <img class="mySlides" src="bg3.jpg" style="width:100%">
+                <img class="mySlides" src="bg4.jpg" style="width:100%">
+              </div>
+             
+
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+        </section>
+        <section id="about">
+            <h2>about</h2>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem in distinctio ex cupiditate eveniet? Illo itaque natus, non ad eaque qui magnam dicta. Expedita nulla harum quia delectus nisi nemo.</p>
+            </div>
+            <div>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, non! Doloremque, asperiores aliquid quod dolore maiores iste alias perspiciatis. Suscipit, blanditiis repellendus. Eius doloremque aspernatur aliquid deserunt quibusdam harum tempora?</P>
+            </div>
+            <div>3
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, enim cupiditate. Sit, nesciunt delectus? Cumque harum autem nesciunt sequi reprehenderit tenetur perspiciatis iure dicta, tempore distinctio quibusdam hic omnis molestiae.</P>
+            </div>  
+        </section>
+        <section id="price">
+            <h2>U-bzy</h2>
+        </section>
+        <section id="contact">
+            
+            <div class="parent">
+                <div class="child">
+                    
+                    <h3>IMG</h3>
+                    <p>lo</p>
+                    
+                 </div>
+                <div class="child">
+                    <h3>IMG</h3>
+                    <p>lo</p>
+                 </div>
+                 <div class="child">
+                    <div class="center"><a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-pinterest"></a>
+                        <a href="#" class="fa fa-snapchat-ghost"></a>
+                        <a href="#" class="fa fa-skype"></a>
+                        <a href="#" class="fa fa-android"></a></div>
+                    <h3>IMG</h3>
+                    <p>lo</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>
