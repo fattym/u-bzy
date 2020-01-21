@@ -13,7 +13,16 @@
     font-size: 71.5%;
     color: #f4f4f4;
     background-color: #1d1e22;
+  
    
+ }
+ p{
+   color: #f4f4f4;
+   font-size:20px;
+   font-weight: 500;
+   float: right;
+  width: 100%;
+  overflow: hidden;
  }
  /*undifined classes*/
  .scrolls{
@@ -96,7 +105,7 @@ section{
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    background-image: url(bg5.jpg);
+    background-image: url(3.jpg);
     background-size: cover;
     scroll-snap-align: center;
 }
@@ -113,16 +122,16 @@ section h2{
         font-family: tahoma;
     }
 section:nth-child(2){
-    background-image: url(bg2.jpg);
+    background-image: url(8.jpg);
 }
 
 section:nth-child(3){
-    background-image: url(bg7.jpg);
+    background-image: url(2.jpg);
     background-size: cover;
     background-position: center;
 }
 section:nth-child(4){
-    background-image: url(bg4.jpg);
+    background-image: url(5.jpg);
    
 }
 
@@ -137,6 +146,7 @@ section:nth-child(4){
 }
 /*contact*/
 .parent{
+    
     display: flex;
     width:100%;
     flex-wrap: wrap;
@@ -146,6 +156,10 @@ section:nth-child(4){
     background: grey;
     padding: 1rem;
     margin:2px;
+    flex:1;
+    
+    word-break: break-word;
+    hyphens: auto;
   
     opacity:70%;
   }
@@ -158,8 +172,39 @@ section:nth-child(4){
       width: 100%;
       flex-wrap: wrap;
   }
+  /*price*/
+ .button1 {
+    height:38px;
+    background: ;
+    border:none;
+    padding-right: 20px;
+    padding-left: 20px;
+    color:;
+  }
+  #box{
+      margin-top: 20px;
+      
+
+  }
+  #boxes .box{
+      float: left;
+      text-align: center;
+      width:30%;
+      padding:10px;
+      
+  }
+  #box .box img{
+      width:90px;
+  }
+  .box:hover{
+   
+    width: 100%;
+    background-color: #f4f4f4;
+    animation: up-bump 0.4s ease;
+  }
   /*social media*/
   .fa {
+      display: flex;
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -239,7 +284,19 @@ section:nth-child(4){
   /*media querry*/
   @media(max-width:400px){
       .parent{
-          display: block;
+        width: 100%;
       }
+
+     
+  }
+  @media(max-width:768px){
+
+   #about #boxes .box{
+        float:none ;
+        text-align: center;
+        width: 100%;
+        
+    }
+
   }
   
