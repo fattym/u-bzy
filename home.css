@@ -333,5 +333,8 @@ section:nth-child(4){
     .fa ul li{
       margin-bottom: 5px;
     }
+    .smooth{
+      float: left;
+    }
   }
   
