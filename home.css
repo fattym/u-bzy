@@ -9,7 +9,7 @@
      height: 100vh;
      flex-direction: column;
      line-height: 1.5;
-        font-family: tohama;   
+     font-family: 'Courgette', cursive;   
     font-size: 71.5%;
     color: #f4f4f4;
     background-color: #1d1e22;
@@ -144,22 +144,32 @@ section:nth-child(4){
     hyphens: auto;
     opacity:70%;
 }
+
+/*gird*/
+.grid-container {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
 /*contact*/
-.parent{
-    
-    display: flex;
-    width:100%;
-    flex-wrap: wrap;
-  }
+
   .child{
     flex:1;
     background: grey;
     padding: 1rem;
     margin:2px;
     flex:1;
-    
-    word-break: break-word;
-    hyphens: auto;
   
     opacity:70%;
   }
