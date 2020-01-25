@@ -27,8 +27,8 @@
             <h2>U-bzy</h2>
             
             
-            <div class="w3-content w3-section" style="max-width:1000px">
-                <img class="mySlides" src="images/bg3.jpg" style="width:100%">
+            <div class="w3-content w3-section" style="max-width:950px">
+                <img class="mySlides" src="images/bg9.jpg" style="width:100%">
                 <img class="mySlides" src="images/4.jpg" style="width:100%">
                 <img class="mySlides" src="images/10.jpg" style="width:100%">
               </div>
@@ -53,12 +53,12 @@
         </section>
         <section id="about">
             <div class="grid-container">
-                <div id="color">About</div>
-                <div></div>
-                <div id="color">Services</div>  
-                <div>4</div>
-                <div id="color">Our miss</div>
-                <div>6</div>  
+                <div id="color">Our Mission</div>
+                <div><p id="hot">Joy in Every pack</p></div>
+                <div id="color">Our Values</div>  
+                <div><p id="hot">Being the best</p></div>
+                <div id="color">Our Vision</div>
+                <div><p id="hot">BE you smile</p></div>  
               </div>
             <h2>about</h2>
             <div id="section-b" class="grid">
@@ -67,7 +67,7 @@
                     <div class="card">
                       <img src="" alt="">
                       <div class="card-content">
-                        <h3 class="card-title">Web Development</h3>
+                        <h3 class="card-title"> Services</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
                       </div>
                     </div>
@@ -76,7 +76,7 @@
                     <div class="card">
                       <img src="" alt="">
                       <div class="card-content">
-                        <h3 class="card-title">Mobile Applications</h3>
+                        <h3 class="card-title">Products</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
                       </div>
                     </div>
@@ -85,10 +85,10 @@
                     <div class="card">
                       <img src="" alt="">
                       <div class="card-content">
-                        <h3 class="card-title">Tech Marketing</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
+                        <h3 class="card-title">Marketing</h3>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
                       </div>
-                    </div>
+                    
                   </li>
                 </ul>
               </div>
@@ -96,47 +96,111 @@
         <section id="price">
             <div id="boxes">
                 <video width="400" controls>
-                    <source src="images/mov_bbb.mp4" type="video/mp4">
-                    <source src="images/mov_bbb.ogg" type="video/ogg">
+                    <source src="images/vd.mp4" type="video/mp4">
+                    
                     Your browser does not support HTML5 video.
                   </video>
                 </dv>
                 <dv class="box">
                     
-                    <h3>Second class</h3>
-                    <p></p>
+                    <h3>Chocolate</h3>
+                    <p>Brown&White</p>
                 </dv>
                 <dv class="box">
                     
-                    <h3>VIP class</h3>
-                    <p></p>
+                  <h3>Affordable </h3>
+                  <p>From as low as =/500</p>
+                   
                 </dv>
             </div>
         </section>
         <section id="contact">
-            
-            <section id="section-c" class="grid">
-                                       <!-- Section D -->
-              <section id="section-d" class="grid">
-                <div class="box">
-                  <h2 class="content-title">Contact Us</h2>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga.</p>
-                  <p>contact@acmewebsolutions.test</p>
-                </div>
-                <div class="box">
-                  <h2 class="content-title">About Our Company</h2>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum porro deserunt, deleniti, quae facere repudiandae, officiis est exercitationem nobis iusto doloremque! Soluta excepturi in aut suscipit amet temporibus quo?</p>
-                </div>
-                <footer id="main-footer" class="grid">
-                  <div>Acme Web Solutions</div>
-                  <div>Project By <a href="http://traversymedia.com" target="_blank">Traversy Media</a></div>
-                </footer>
-              </section>
+          <span>
+            <p>click me</p>
+            <div>
+              <button type="button" class="collapsible">Open Section 1</button>
+                <div class="content">
+                 <p id="hot">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                 <button type="button" class="collapsible">Contucts</button>
+                 <div class="content">
+              <p id="hot">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+                <button type="button" class="collapsible">Our Location</button>
+                <div class="content">
+                <p id="hot">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+
+
+            <script>
+              var coll = document.getElementsByClassName("collapsible");
+              var i;
+              
+              for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                  this.classList.toggle("active");
+                  var content = this.nextElementSibling;
+                  if (content.style.display === "block") {
+                    content.style.display = "none";
+                  } else {
+                    content.style.display = "block";
+                  }
+                });
+              }
+              </script>
+              </div>
+          </span>
+
+
+        
         </section>
     
 
 <!-- Footer -->
 
-    
+<div class="footer">
+  <div id="center">
+    <a href="#" class="fa fa-facebook"></a>
+     <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-google"></a>
+       <a href="#" class="fa fa-linkedin"></a>
+
+
+
+
+<button class="open-button" onclick="openForm()">Open Form</button>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Login</h1>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+       <label for="psw"><b>Password</b></label>
+       <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit" class="btn">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+  </div>
+
+
+
+  
+</div>
 </body>
 </html>
