@@ -276,15 +276,24 @@ section:nth-child(4){
       margin-bottom: 5px;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    .smooth{
+      float: left;
+    }
+>>>>>>> 35da8781ae5da6a18ea898bfba90066ffbc56a92
 /*display grid*/
 #about{
 float:none;
 display:inline-block;
+<<<<<<< HEAD
 =======
     .smooth{
       float: left;
     }
 >>>>>>> d1c5d0844c250a46cc8285f6c4d11702dabdc2ea
+=======
+>>>>>>> 35da8781ae5da6a18ea898bfba90066ffbc56a92
   }
   .header{
     float: none;
