@@ -105,7 +105,7 @@ section{
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    background-image: url(3.jpg);
+    background-image: url(13.jpg);
     background-size: cover;
     scroll-snap-align: center;
 }
@@ -175,11 +175,11 @@ section:nth-child(4){
   /*price*/
  .button1 {
     height:38px;
-    background: ;
+
     border:none;
     padding-right: 20px;
     padding-left: 20px;
-    color:;
+    
   }
   #box{
       margin-top: 20px;
@@ -202,101 +202,43 @@ section:nth-child(4){
     background-color: #f4f4f4;
     animation: up-bump 0.4s ease;
   }
+  /*grid*/
+  content-wrap,
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+
+/* Section A */
+
+#section-d .box {
+  padding: 2em;
+  color: #fff;
+}
+
+#section-d .box:first-child {
+  background: #2690d4;
+}
+
+  
+  
   /*social media*/
-  .fa {
-      width: 100%;
-      height: auto;
-      margin: auto;
-      min-height: 25px;
-      
+  video {
+    width: 100%;
+    height: auto;
   }
-  .fa ul{
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-  }
-  .fa ul li{
-    display: inline-block;
-    margin-right: 2px;
-    width:36px;
-    height:36px;
-    text-align: center;
-  }
-  .fa ul li a{
-    color:#fff;
-    display: block;
-    font-size: 22px;
-    text-shadow: 0px 0px 5px rgba(0,0,0,0.75);
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-  .fa-google {
-    background: #dd4b39;
-    color: white;
-  }
-  
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-  
-  .fa-pinterest {
-    background: #cb2027;
-    color: white;
-  }
-  
-  .fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
-  
-  .fa-skype {
-    background: #00aff0;
-    color: white;
-  }
-  
-  .fa-android {
-    background: #a4c639;
-    color: white;
-  }
-  
-  .fa-dribbble {
-    background: #ea4c89;
-    color: white;
-  }
-  
-  .fa-vimeo {
-    background: #45bbff;
-    color: white;
-  }
-.center{
-    display: flex;
-    justify-content: center;
-    min-height: 250px;
-}    
+/*footer*/
+#main-footer {
+  padding: 2em;
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+#main-footer a {
+  color: #2690d4;
+  text-decoration: none;
+}
+
   /*media querry*/
   @media(max-width:400px){
       .parent{
@@ -320,5 +262,21 @@ section:nth-child(4){
     .fa ul li{
       margin-bottom: 5px;
     }
+/*display grid*/
+#about{
+float:none;
+display:inline-block;
   }
+  .header{
+    float: none;
+  
+  display: inline;
+}
+.header ul li{
+  float: none;
+ 
+  display: inline;
+
+}
+}
   
